@@ -8,24 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		5F6353072160DAE5001B5F8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6353062160DAE5001B5F8B /* AppDelegate.m */; };
-		5F63530A2160DAE5001B5F8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6353092160DAE5001B5F8B /* ViewController.m */; };
 		5F63530D2160DAE5001B5F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F63530B2160DAE5001B5F8B /* Main.storyboard */; };
 		5F63530F2160DAE5001B5F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F63530E2160DAE5001B5F8B /* Assets.xcassets */; };
 		5F6353122160DAE5001B5F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6353102160DAE5001B5F8B /* LaunchScreen.storyboard */; };
 		5F6353152160DAE5001B5F8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6353142160DAE5001B5F8B /* main.m */; };
+		5F63531C2160DCB0001B5F8B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5F63531B2160DCB0001B5F8B /* Podfile */; };
+		5F6353222160DE44001B5F8B /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6353212160DE44001B5F8B /* DejalActivityView.m */; };
+		5F6353252160DE62001B5F8B /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6353242160DE61001B5F8B /* Album.m */; };
+		5F6353282160DE77001B5F8B /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6353272160DE77001B5F8B /* Picture.m */; };
+		5F63532C2160DF48001B5F8B /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F63532B2160DF48001B5F8B /* AlbumViewController.m */; };
+		5F6353322160DFB3001B5F8B /* AlbumDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6353312160DFB3001B5F8B /* AlbumDetailsViewController.m */; };
+		5F6353352160E00A001B5F8B /* AlbumDetailsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6353342160E00A001B5F8B /* AlbumDetailsViewCell.m */; };
+		5F6353382160E033001B5F8B /* AlbumViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6353372160E033001B5F8B /* AlbumViewCell.m */; };
+		5F63533C2160E2B0001B5F8B /* FacebookLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F63533B2160E2B0001B5F8B /* FacebookLoginViewController.m */; };
+		D12117CC0BA9422FF8AF0410 /* libPods-TestTechniqueAdria.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E39C12E4F5054799CA9DC64 /* libPods-TestTechniqueAdria.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E39C12E4F5054799CA9DC64 /* libPods-TestTechniqueAdria.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestTechniqueAdria.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53A03EC9371BF27DED2576E4 /* Pods-TestTechniqueAdria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTechniqueAdria.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTechniqueAdria/Pods-TestTechniqueAdria.release.xcconfig"; sourceTree = "<group>"; };
 		5F6353022160DAE5001B5F8B /* TestTechniqueAdria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTechniqueAdria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6353052160DAE5001B5F8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5F6353062160DAE5001B5F8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5F6353082160DAE5001B5F8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5F6353092160DAE5001B5F8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5F63530C2160DAE5001B5F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F63530E2160DAE5001B5F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F6353112160DAE5001B5F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F6353132160DAE5001B5F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F6353142160DAE5001B5F8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F63531B2160DCB0001B5F8B /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		5F6353202160DE43001B5F8B /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
+		5F6353212160DE44001B5F8B /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
+		5F6353232160DE61001B5F8B /* Album.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		5F6353242160DE61001B5F8B /* Album.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		5F6353262160DE77001B5F8B /* Picture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
+		5F6353272160DE77001B5F8B /* Picture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
+		5F63532A2160DF48001B5F8B /* AlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		5F63532B2160DF48001B5F8B /* AlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
+		5F6353302160DFB3001B5F8B /* AlbumDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumDetailsViewController.h; sourceTree = "<group>"; };
+		5F6353312160DFB3001B5F8B /* AlbumDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumDetailsViewController.m; sourceTree = "<group>"; };
+		5F6353332160E00A001B5F8B /* AlbumDetailsViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumDetailsViewCell.h; sourceTree = "<group>"; };
+		5F6353342160E00A001B5F8B /* AlbumDetailsViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumDetailsViewCell.m; sourceTree = "<group>"; };
+		5F6353362160E033001B5F8B /* AlbumViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumViewCell.h; sourceTree = "<group>"; };
+		5F6353372160E033001B5F8B /* AlbumViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumViewCell.m; sourceTree = "<group>"; };
+		5F63533A2160E2B0001B5F8B /* FacebookLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookLoginViewController.h; sourceTree = "<group>"; };
+		5F63533B2160E2B0001B5F8B /* FacebookLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookLoginViewController.m; sourceTree = "<group>"; };
+		BEDBBA8B8B2440A7E8E5DF06 /* Pods-TestTechniqueAdria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTechniqueAdria.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTechniqueAdria/Pods-TestTechniqueAdria.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +60,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D12117CC0BA9422FF8AF0410 /* libPods-TestTechniqueAdria.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		122F0FE3540BB3963AD72FB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEDBBA8B8B2440A7E8E5DF06 /* Pods-TestTechniqueAdria.debug.xcconfig */,
+				53A03EC9371BF27DED2576E4 /* Pods-TestTechniqueAdria.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5F6352F92160DAE5001B5F8B = {
 			isa = PBXGroup;
 			children = (
+				5F63531B2160DCB0001B5F8B /* Podfile */,
 				5F6353042160DAE5001B5F8B /* TestTechniqueAdria */,
 				5F6353032160DAE5001B5F8B /* Products */,
+				122F0FE3540BB3963AD72FB9 /* Pods */,
+				649BB285CA9C86D8085AE44E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +98,11 @@
 		5F6353042160DAE5001B5F8B /* TestTechniqueAdria */ = {
 			isa = PBXGroup;
 			children = (
+				5F63531F2160DDE1001B5F8B /* Utils */,
+				5F63531E2160DDCD001B5F8B /* Models */,
+				5F63531D2160DDBB001B5F8B /* ViewControllers */,
 				5F6353052160DAE5001B5F8B /* AppDelegate.h */,
 				5F6353062160DAE5001B5F8B /* AppDelegate.m */,
-				5F6353082160DAE5001B5F8B /* ViewController.h */,
-				5F6353092160DAE5001B5F8B /* ViewController.m */,
 				5F63530B2160DAE5001B5F8B /* Main.storyboard */,
 				5F63530E2160DAE5001B5F8B /* Assets.xcassets */,
 				5F6353102160DAE5001B5F8B /* LaunchScreen.storyboard */,
@@ -71,6 +112,67 @@
 			path = TestTechniqueAdria;
 			sourceTree = "<group>";
 		};
+		5F63531D2160DDBB001B5F8B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F6353392160E285001B5F8B /* VCFacebook */,
+				5F6353292160DECC001B5F8B /* VCAlbum */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5F63531E2160DDCD001B5F8B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F6353232160DE61001B5F8B /* Album.h */,
+				5F6353242160DE61001B5F8B /* Album.m */,
+				5F6353262160DE77001B5F8B /* Picture.h */,
+				5F6353272160DE77001B5F8B /* Picture.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F63531F2160DDE1001B5F8B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5F6353202160DE43001B5F8B /* DejalActivityView.h */,
+				5F6353212160DE44001B5F8B /* DejalActivityView.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5F6353292160DECC001B5F8B /* VCAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				5F63532A2160DF48001B5F8B /* AlbumViewController.h */,
+				5F63532B2160DF48001B5F8B /* AlbumViewController.m */,
+				5F6353362160E033001B5F8B /* AlbumViewCell.h */,
+				5F6353372160E033001B5F8B /* AlbumViewCell.m */,
+				5F6353302160DFB3001B5F8B /* AlbumDetailsViewController.h */,
+				5F6353312160DFB3001B5F8B /* AlbumDetailsViewController.m */,
+				5F6353332160E00A001B5F8B /* AlbumDetailsViewCell.h */,
+				5F6353342160E00A001B5F8B /* AlbumDetailsViewCell.m */,
+			);
+			path = VCAlbum;
+			sourceTree = "<group>";
+		};
+		5F6353392160E285001B5F8B /* VCFacebook */ = {
+			isa = PBXGroup;
+			children = (
+				5F63533A2160E2B0001B5F8B /* FacebookLoginViewController.h */,
+				5F63533B2160E2B0001B5F8B /* FacebookLoginViewController.m */,
+			);
+			path = VCFacebook;
+			sourceTree = "<group>";
+		};
+		649BB285CA9C86D8085AE44E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E39C12E4F5054799CA9DC64 /* libPods-TestTechniqueAdria.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F6353182160DAE5001B5F8B /* Build configuration list for PBXNativeTarget "TestTechniqueAdria" */;
 			buildPhases = (
+				896DD7F6083F5BD5476BE64F /* [CP] Check Pods Manifest.lock */,
 				5F6352FE2160DAE5001B5F8B /* Sources */,
 				5F6352FF2160DAE5001B5F8B /* Frameworks */,
 				5F6353002160DAE5001B5F8B /* Resources */,
+				49C86BFB76657470339DFB29 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,20 +235,67 @@
 			files = (
 				5F6353122160DAE5001B5F8B /* LaunchScreen.storyboard in Resources */,
 				5F63530F2160DAE5001B5F8B /* Assets.xcassets in Resources */,
+				5F63531C2160DCB0001B5F8B /* Podfile in Resources */,
 				5F63530D2160DAE5001B5F8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49C86BFB76657470339DFB29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestTechniqueAdria/Pods-TestTechniqueAdria-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTechniqueAdria/Pods-TestTechniqueAdria-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		896DD7F6083F5BD5476BE64F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestTechniqueAdria-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5F6352FE2160DAE5001B5F8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F63530A2160DAE5001B5F8B /* ViewController.m in Sources */,
+				5F6353222160DE44001B5F8B /* DejalActivityView.m in Sources */,
+				5F6353282160DE77001B5F8B /* Picture.m in Sources */,
+				5F6353352160E00A001B5F8B /* AlbumDetailsViewCell.m in Sources */,
+				5F6353382160E033001B5F8B /* AlbumViewCell.m in Sources */,
+				5F63532C2160DF48001B5F8B /* AlbumViewController.m in Sources */,
 				5F6353152160DAE5001B5F8B /* main.m in Sources */,
+				5F63533C2160E2B0001B5F8B /* FacebookLoginViewController.m in Sources */,
+				5F6353322160DFB3001B5F8B /* AlbumDetailsViewController.m in Sources */,
 				5F6353072160DAE5001B5F8B /* AppDelegate.m in Sources */,
+				5F6353252160DE62001B5F8B /* Album.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +353,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FZNF65G3R8;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -257,6 +409,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FZNF65G3R8;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -276,6 +429,7 @@
 		};
 		5F6353192160DAE5001B5F8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEDBBA8B8B2440A7E8E5DF06 /* Pods-TestTechniqueAdria.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +444,7 @@
 		};
 		5F63531A2160DAE5001B5F8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A03EC9371BF27DED2576E4 /* Pods-TestTechniqueAdria.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
